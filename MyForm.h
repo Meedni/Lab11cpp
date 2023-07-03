@@ -206,11 +206,11 @@ namespace Lab11cpp {
 
 			if (x <= 0)
 			{
-				y = x * sin(x + 4);
+				y = cos(x) + pow(x, 3);
 			}
 			else if ((x > 0) && (x <= a))
 			{
-				y = sin(x * x);
+				y = sqrt(pow(x, 3)) * sin(x);
 			}
 			else if (x > a)
 			{
